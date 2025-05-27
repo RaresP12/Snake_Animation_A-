@@ -236,22 +236,4 @@ public class DemoPanel extends JPanel {
 
 
     }
-    /*
-    public void snake(){
-        //Snake will be made up of 4 nodes
-        //Once the fastest path is calculated the snake will move towards the goal
-        //The square in front of the head will be the new head and the last node will blend in the background
-        Node current = startNode;
-
-        while(current != goalNode){
-            current = current.child;
-                current.setSnake();
-                path.add(current);
-                current.parent.setAsPath();
-
-        }         
-
-    }
-    */
-
 }
